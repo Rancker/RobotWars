@@ -21,6 +21,7 @@ Robot Wars
 INPUT AND OUTPUT
  
 Test Input:
+
 5 5
 
 1 2 N
@@ -44,6 +45,7 @@ Once the instruction passed it hits the Squad Control where it parses all the co
 
 To run the console application enter the input once done enter GO to submit the information that will return the output.
 EX INPUT-
+
 5 5
 
 1 2 N
@@ -57,6 +59,7 @@ MMRMMRMRRM
 GO
 
 OUTPUT - 
+
 1 3 N
 
 5 1 E
