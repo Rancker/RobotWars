@@ -28,10 +28,12 @@ Test Input:
 LMLMLMLMM
 
 3 3 E
+
 MMRMMRMRRM
  
 Expected Output:
 1 3 N
+
 5 1 E
 
 Tools Used - .Net Framework 4.7, Visual Studio 2017, UnitTest - Nunit, Mocking - Moq, Acceptance Test - Specflow
@@ -43,13 +45,19 @@ Once the instruction passed it hits the Squad Control where it parses all the co
 To run the console application enter the input once done enter GO to submit the information that will return the output.
 EX INPUT-
 5 5
+
 1 2 N
+
 LMLMLMLMM
+
 3 3 E
+
 MMRMMRMRRM
+
 GO
 
 OUTPUT - 
 1 3 N
+
 5 1 E
 
