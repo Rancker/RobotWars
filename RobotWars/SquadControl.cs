@@ -20,7 +20,7 @@ namespace RobotWars
             if (!input.Any()) throw new InvalidCommandException("Please provide valid command and position.");
 
             var rovers = new List<Robot>();
-            var roverCommands = ParseRoverCommands.From(input);
+            var roverCommands = ParseRobotCommands.From(input);
             foreach (var roverCommand in roverCommands)
             {
                 var robot = new Robot(roverCommand.StartingPosition, _output);

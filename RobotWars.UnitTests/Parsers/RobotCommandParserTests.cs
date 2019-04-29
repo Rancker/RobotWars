@@ -6,7 +6,7 @@ using System.Linq;
 namespace RobotWars.UnitTests.Parsers
 {
     [TestFixture]
-    public class RoverCommandParserTests
+    public class RobotCommandParserTests
     {
         [Test]
         public void Should_return_1_RoverCommand()
@@ -14,7 +14,7 @@ namespace RobotWars.UnitTests.Parsers
             //Given
             var commandStrings = new List<string> { "5 5", "1 1 N", "MM" };
             //When
-            var roverCommands = ParseRoverCommands.From(commandStrings);
+            var roverCommands = ParseRobotCommands.From(commandStrings);
 
             //Then
             Assert.That(roverCommands.Count(), Is.EqualTo(1), "Should parser only 1 RoverCommand");

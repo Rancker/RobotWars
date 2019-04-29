@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace RobotWars.Parsers
 {
-    public class ParseRoverCommands
+    public class ParseRobotCommands
     {
         public static IEnumerable<RobotCommand> From(IEnumerable<string> inputCommands)
         {

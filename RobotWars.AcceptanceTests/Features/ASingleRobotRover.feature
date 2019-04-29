@@ -5,7 +5,7 @@
 
 @acceptance
 Scenario: Control 1 Rover in a 5x5 Plateau
-	Given I have a RoverRoverSquadControl
+	Given I have a RobotSquadControl
 	And I enter the command 5 5
 	And I enter the command 1 1 N
 	And I enter the command M
@@ -14,7 +14,7 @@ Scenario: Control 1 Rover in a 5x5 Plateau
 
 @acceptance
 Scenario: Control 1 Rover in a 4x4 Plateau
-	Given I have a RoverRoverSquadControl
+	Given I have a RobotSquadControl
 	And I enter the command 4 4
 	And I enter the command 0 0 N
 	And I enter the command MR
@@ -23,7 +23,7 @@ Scenario: Control 1 Rover in a 4x4 Plateau
 
 @ignore
 Scenario: A Rover that goes out of bounds
-	Given I have a RoverRoverSquadControl
+	Given I have a RobotSquadControl
 	And I enter the command 2 2
 	And I enter the command 0 0 N
 	And I enter the command MM

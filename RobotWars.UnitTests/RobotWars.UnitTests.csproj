@@ -68,7 +68,7 @@
     <Compile Include="Handler\RightInstructionHandlerTests.cs" />
     <Compile Include="Parsers\ParseCoordinateTests.cs" />
     <Compile Include="Parsers\ParsePositionTests.cs" />
-    <Compile Include="Parsers\RoverCommandParserTests.cs" />
+    <Compile Include="Parsers\RobotCommandParserTests.cs" />
     <Compile Include="PositionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RobotTests.cs" />

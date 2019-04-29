@@ -9,8 +9,8 @@ namespace RobotWars.AcceptanceTests.Steps
         private Helpers.SquadControlApp _squadControlApp;
 
 
-        [Given(@"I have a RoverRoverSquadControl")]
-        public void GivenIHaveARoverRoverSquadControl()
+        [Given(@"I have a RobotSquadControl")]
+        public void GivenIHaveARobotSquadControl()
         {
             _squadControlApp = new Helpers.SquadControlApp();
         }

@@ -5,7 +5,7 @@
 
 @acceptance
 Scenario: 5 x 5 Plateau with 2 Rovers
-	Given I have a RoverRoverSquadControl
+	Given I have a RobotSquadControl
 	When I send the the commands:
 	| <Test Input> |
 	| 5 5          |
@@ -21,7 +21,7 @@ Scenario: 5 x 5 Plateau with 2 Rovers
 
 
 Scenario: 5 x 5 Plateau with 3 Rovers
-	Given I have a RoverRoverSquadControl
+	Given I have a RobotSquadControl
 	When I send the the commands:
 	| <Test Input> |
 	| 5 5          |
